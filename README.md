@@ -38,7 +38,7 @@ ACCESS_TOKEN_SECRET=
 
 #### To Start Application
 
-1. In a terminal, navigate to the root folder of the repository and run `node messageBot`.
+1. In a terminal, navigate to the root folder of the repository and run `node tweetBot`.
 
 2. The terminal will prompt whether or not you would like to send a tweet. Type yes or no to be prompted to type your Tweet. After every Tweet you will be prompted with whether or not you would like to send another Tweet. After you have specified all of the Tweets you would like to send you can adjust the time between each Tweet send by adjusting the `await timer(15000)` inside the `start()` function to the amount of time you would like. By default it is set at 15000 milliseconds which equals 15 seconds.
 
