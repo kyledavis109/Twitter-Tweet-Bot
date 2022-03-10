@@ -4,8 +4,6 @@
 
 This project is a Twitter messaging app that interacts with the Twitter API to allow the end user to specify and schedule Tweets they want to post to their Twitter account.
 
-### Getting Started
-
 #### Installation
 
 1. To get started you will need to install Node.js on your computer. [Node.js Download](https://nodejs.org/en/download/).
