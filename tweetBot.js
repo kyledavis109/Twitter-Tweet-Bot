@@ -6,14 +6,17 @@ const Twitter = new twit(config);
 
 // Posts tweet to Twitter.
 const postTweet = (message) => {
-    console.log('Sending tweet...')
+
+    console.log('Sending tweet...');
+    
     Twitter.post('statuses/update', {
         status: message
     }, (err, data, res) => {
         if (err) {
-           return console.log(err.allErrors[0].message)
+           return console.log(err.allErrors[0].message);
         }
         console.log('Tweet sent!');
+
     });
 };
 
