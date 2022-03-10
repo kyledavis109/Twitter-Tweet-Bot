@@ -28,11 +28,11 @@ ACCESS_TOKEN_SECRET=
 
 ```
 
-7. You will now need to setup a Twitter Developer account to obtain a `CONSUMER_KEY`, `CONSUMER_SECRET`, `ACCESS_TOKEN` and an `ACCESS_TOKEN_SECRET` to communicate with the Spotify API. A guide and documentation is available at [Twitter Developer Docs](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api).
+6. You will now need to setup a Twitter Developer account to obtain a `CONSUMER_KEY`, `CONSUMER_SECRET`, `ACCESS_TOKEN` and an `ACCESS_TOKEN_SECRET` to communicate with the Spotify API. A guide and documentation is available at [Twitter Developer Docs](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api).
 
-8. Once you have created an app in the Twitter Developer Dashboard you can obtain your Consumer Key, Consumer Secret, Access Token and Access Token Secret from the app. Store your Consumer Key, Consumer Secret, Access Token and Access Token Secret in the specified `.env` variables (***This information is sensitive! Do not share it with anyone!***).
+7. Once you have created an app in the Twitter Developer Dashboard you can obtain your Consumer Key, Consumer Secret, Access Token and Access Token Secret from the app. Store your Consumer Key, Consumer Secret, Access Token and Access Token Secret in the specified `.env` variables (***This information is sensitive! Do not share it with anyone!***).
 
-9. You will need a few npm packages installed to run this app. To install the packages, in the terminal navigate to the root folder of the repository and then run `npm i`.
+8. You will need a few npm packages installed to run this app. To install the packages, in the terminal navigate to the root folder of the repository and then run `npm i`.
 
 ***Congratulations! You've completed installation!***
 
