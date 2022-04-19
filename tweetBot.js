@@ -77,7 +77,7 @@ async function start() {
             const answer = await askForTweets()
             messages.push(answer)
 
-            // Ask if user wants to add more messages.
+            // Ask if the user wants to add more messages.
             const moreMessagesAnswer = await moreMessages()
             if (moreMessagesAnswer === 'No') {
                 break
