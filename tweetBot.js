@@ -49,6 +49,7 @@ async function askForTweets() {
 // Asks the user if they have more messages they want to tweet.
 async function moreMessages() {
     try {
+        // Asks user if they would like to add another tweet.
         const answers = await inquirer.prompt([
             {
                 type: 'list',
